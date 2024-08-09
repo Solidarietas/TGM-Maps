@@ -1,0 +1,171 @@
+{
+	"name": "Neo Arena",
+	"authors": [
+		{"uuid": "81d97452-7697-4b20-8562-bf29b355d23c", "username": "Yeef_"},
+		{"uuid": "5d3e5b86-1ac4-48be-8758-993318371d33", "username": "LordofLightning"}
+	],
+	"version": "1.0.2",
+	"gametype": "CTW",
+	"teams": [
+		{
+			"id": "blue",
+			"name": "Blue",
+			"color": "blue",
+			"min": 1,
+			"max": 10
+		},
+		{
+			"id": "red",
+			"name": "Red",
+			"color": "red",
+			"min": 1,
+			"max": 10
+		}
+	],
+	"spawns": [
+		{"teams": ["spectators"], "coords": "-116.5, 36, -191.5, 90"},
+		{"teams": ["red"], "coords": "-173.5, 3, -191.5, -90"},
+		{"teams": ["blue"], "coords": "-60.5, 3, -191.5, 90"}
+	],
+	"ctw": {
+		"wools": [
+			{
+				"name": "Lime",
+				"color": "green",
+				"woolcolor": "lime",
+				"teams": ["blue"],
+				"region": {"min": "-46, 16, -196", "max": "-45, 16, -193"}
+			},
+			{
+				"name": "Orange",
+				"color": "gold",
+				"woolcolor": "orange",
+				"teams": ["red"],
+				"region": {"min": "-190, 15, -193", "max": "-189, 16, -196"}
+			}
+		]
+	},
+	"kits": [
+		{
+			"name": "Default",
+			"items": [
+				{"material": "iron sword", "slot": 0, "unbreakable": true},
+				{"material": "bow", "slot": 1, "unbreakable": true},
+				{"material": "stone pickaxe", "slot": 2, "unbreakable": true},
+				{"material": "wooden axe", "slot": 3, "unbreakable": true},
+				{"material": "stone shovel", "slot": 30, "unbreakable": true},
+
+				{"material": "glass", "slot": 5, "amount": 64},
+				{"material": "oak planks", "slot": 6, "amount": 64},
+				{"material": "cooked beef", "slot": 8, "amount": 64},
+				{"material": "arrow", "slot": 28, "amount": 7},
+
+				{"material": "leather helmet", "slot": "helmet", "unbreakable": true},
+				{"material": "chainmail chestplate", "slot": "chestplate", "unbreakable": true},
+				{"material": "leather leggings", "slot": "leggings", "unbreakable": true},
+				{"material": "iron boots", "slot": "boots", "enchantments": ["projectile_protection:2"], "unbreakable": true}
+			]
+		}
+	],
+	"itemremove": [
+		"iron sword", "bow", "stone pickaxe", "wooden axe", "stone shovel", "glass", "oak planks", "cooked beef",
+		"arrow", "chainmail chestplate", "beacon",
+		{
+            "type": "leather helmet",
+            "death": true,
+            "drop": true,
+            "spawn": false
+        },
+        {
+            "type": "leather leggings",
+            "death": true,
+            "drop": true,
+            "spawn": false
+        },
+        {
+            "type": "iron boots",
+            "death": true,
+            "drop": true,
+            "spawn": false
+        }
+	],
+	"killstreaks": [
+		{
+			"count": 1,
+			"repeat": true,
+			"actions": {
+				"items": [
+					{"material": "golden apple", "amount": 1},
+					{"material": "arrow", "amount": 2}
+				]
+			}
+		},
+		{
+			"count": 10,
+			"repeat": false,
+			"actions": {
+				"items": [
+					{"material": "golden helmet", "amount": 1}
+				]
+			}
+		},
+		{
+			"count": 25,
+			"repeat": false,
+			"actions": {
+				"items": [
+					{"material": "diamond helmet", "amount": 1}
+				]
+			}
+		}
+	],
+	"filters": [
+		{
+			"type": "build", "evaluate": "deny", "teams": ["red", "blue"],
+			"regions": ["blue-spawn-protection", "red-spawn-protection"],
+			"message": "&cYou are not allowed to modify terrain here."
+		},
+		{
+			"type": "build", "evaluate": "deny", "teams": ["blue"],
+			"regions": ["orange-room", "red-spawn-buffer"],
+			"message": "&cYou are not allowed to modify terrain in Red's spawn buffer."
+		},
+		{
+			"type": "build", "evaluate": "deny", "teams": ["red"],
+			"regions": ["lime-room", "blue-spawn-buffer"],
+			"message": "&cYou are not allowed to modify terrain in Blue's spawn buffer."
+		},
+		{"type": "enter", "evaluate": "deny", "teams": ["red"], "regions": ["blue-spawn-protection", "blue-spawn-buffer", "lime-room"], "message": "&cYou may not enter this region."},
+		{"type": "enter", "evaluate": "deny", "teams": ["blue"], "regions": ["red-spawn-protection", "red-spawn-buffer", "orange-room"], "message": "&cYou may not enter this region."},
+		{"type": "voidbuild", "evaluate": "deny", "teams": ["red", "blue"], "inverted": true, "regions": ["map"], "message": "&cYou may not build outside the map border."}
+	],
+	"regions": [
+        {"id": "blue-spawn-buffer-back", "type": "cylinder", "base": "-59, 0, -192", "radius": 7, "height": 39},
+        {"id": "blue-spawn-buffer-main", "type": "cuboid", "min": "-70, 0, -199", "max": "-60, oo, -185"},
+        {"id": "blue-spawn-buffer-side-south", "type": "cuboid", "min": "-62, 0, -184", "max": "-64, oo, -184"},
+        {"id": "blue-spawn-buffer-side-north", "type": "cuboid", "min": "-62, 0, -200", "max": "-64, oo, -200"},
+        {"id": "blue-spawn-buffer", "type": "meta", "regions": ["blue-spawn-buffer-back", "blue-spawn-buffer-main", "blue-spawn-buffer-side-south", "blue-spawn-buffer-side-north"]},
+
+        {"id": "blue-spawn-island", "type": "cylinder", "base": "-63, 0, -192", "radius": 5, "height": 39},
+        {"id": "blue-spawn-protection", "type": "meta", "regions": ["blue-spawn-island"]},
+
+        {"id": "orange-room", "min": "-24, 0, -200", "max": "-8, oo, -184"},
+
+
+        {"id": "red-spawn-buffer-back", "type": "cylinder", "base": "-176, 0, -192", "radius": 7, "height": 39},
+        {"id": "red-spawn-buffer-main", "type": "cuboid", "min": "-175, 0, -199", "max": "-165, oo, -185"},
+        {"id": "red-spawn-buffer-side-south", "type": "cuboid", "min": "-173, 0, -184", "max": "-175, oo, -184"},
+        {"id": "red-spawn-buffer-side-north", "type": "cuboid", "min": "-173, 0, -200", "max": "-175, oo, -200"},
+        {"id": "red-spawn-buffer", "type": "meta", "regions": ["red-spawn-buffer-back", "red-spawn-buffer-main", "red-spawn-buffer-side-south", "red-spawn-buffer-side-north"]},
+
+        {"id": "red-spawn-island", "type": "cylinder", "base": "-172, 0, -192", "radius": 5, "height": 39},
+        {"id": "red-spawn-protection", "type": "meta", "regions": ["red-spawn-island"]},
+
+        {"id": "lime-room", "min": "-227, 0, -184", "max": "-211, oo, -200"},
+
+
+        {"id": "map-main", "type": "cuboid", "min": "-210, 0, -240", "max": "-25, oo, -145"},
+		{"id": "map", "type": "meta", "regions": ["map-main", "orange-room", "lime-room"]}
+	],
+	"buildHeight": 31
+}
