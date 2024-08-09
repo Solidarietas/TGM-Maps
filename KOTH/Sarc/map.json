@@ -4,7 +4,7 @@
 		{"uuid": "f690a591-348b-482e-a18d-7779d0c0a28c", "username": "mitchiii"}
 		// Credits to Owehttamy (edbd4cdb-63a5-4cec-944c-2b6bda56f51f) for porting over TNT mechanics
 	],
-	"version": "1.1.3",
+	"version": "1.2.0",
 	"gametype": "KOTH",
 	"teams": [
 		{
@@ -110,7 +110,7 @@
 	"time": {
 		"broadcasts": [
 			{
-				"message": "&6[TIP] &cScore two kills to get TNT. Place it down and it will ignite!",
+				"message": "&6[TIP] &cEvery two kills you get auto igniting TNT!",
 				"interval": 1,
 				"repeat": false,
 				"commands": ["execute at @r run setblock -252 1 -250 redstone_block"]
