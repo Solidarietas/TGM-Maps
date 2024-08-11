@@ -3,7 +3,7 @@
 	"authors": [
 		{"uuid": "5e1c0b5d-cfdd-4e10-95cd-c53f8ee92150", "username": "TheNoChillDude"}
 	],
-	"version": "1.1",
+	"version": "1.2",
 	"gametype": "KOTH",
 	"teams": [
 		{
@@ -11,14 +11,14 @@
 			"name": "Cyan",
 			"color": "dark_aqua",
 			"min": 1,
-			"max": 10
+			"max": 30
 		},
 		{
 			"id": "orange",
 			"name": "Orange",
 			"color": "gold",
 			"min": 1,
-			"max": 10
+			"max": 30
 		}
 	],
 	"spawns": [
@@ -34,7 +34,7 @@
 			{
 				"name": "Point C",
 				"time": 8,
-				"points": 3.5,
+				"points": 4.0,
 				"region": {
 					"type": "meta",
 					"regions": [
@@ -92,12 +92,11 @@
 			"name": "Default",
 			"items": [
 				{"type": "item", "material": "stone sword", "slot": 0, "unbreakable": true},
-				{"type": "item", "material": "bow", "slot": 1, "unbreakable": true, "enchantments": ["arrow infinite:1"]},
+				{"type": "item", "material": "bow", "slot": 1, "unbreakable": true},
 				{"type": "item", "material": "arrow", "slot": 7, "amount": 24},
-				{"type": "item", "material": "golden carrot", "slot": 8, "amount": 64},
 				{"type": "item", "material": "iron helmet", "slot": "helmet", "unbreakable": true},
 				{"type": "item", "material": "chainmail chestplate", "slot": "chestplate", "unbreakable": true},
-				{"type": "item", "material": "leather leggings", "slot": "leggings", "unbreakable": true, "enchantments": ["protection projectile:2"]},
+				{"type": "item", "material": "leather leggings", "slot": "leggings", "unbreakable": true, "enchantments": ["projectile protection:2"]},
 				{"type": "item", "material": "leather boots", "slot": "boots", "unbreakable": true}
 			],
 			"effects": [
