@@ -4,7 +4,7 @@
 		{"uuid": "81d97452-7697-4b20-8562-bf29b355d23c", "username": "Yeef_"},
 		{"uuid": "5d3e5b86-1ac4-48be-8758-993318371d33", "username": "LordofLightning"}
 	],
-	"version": "1.1.0",
+	"version": "1.1.1",
 	"gametype": "CTW",
 	"teams": [
 		{
@@ -52,7 +52,7 @@
 				{"material": "iron sword", "slot": 0, "unbreakable": true},
 				{"material": "bow", "slot": 1, "unbreakable": true},
 				{"material": "stone pickaxe", "slot": 2, "unbreakable": true},
-				{"material": "wooden axe", "slot": 3, "unbreakable": true},
+				{"material": "golden axe", "slot": 3, "unbreakable": true},
 				{"material": "stone shovel", "slot": 30, "unbreakable": true},
 
 				{"material": "glass", "slot": 5, "amount": 64},
@@ -68,7 +68,7 @@
 		}
 	],
 	"itemremove": [
-		"iron sword", "bow", "stone pickaxe", "wooden axe", "stone shovel", "glass", "oak planks", "cooked beef",
+		"iron sword", "bow", "stone pickaxe", "golden axe", "stone shovel", "glass", "oak planks", "cooked beef",
 		"arrow", "chainmail chestplate", "beacon",
 		{
             "type": "leather helmet",
@@ -96,7 +96,7 @@
 			"actions": {
 				"items": [
 					{"material": "golden apple", "amount": 1},
-					{"material": "arrow", "amount": 2}
+					{"material": "arrow", "amount": 4}
 				]
 			}
 		},
@@ -167,5 +167,5 @@
         {"id": "map-main", "type": "cuboid", "min": "-210, 0, -240", "max": "-25, oo, -145"},
 		{"id": "map", "type": "meta", "regions": ["map-main", "orange-room", "lime-room"]}
 	],
-	"buildHeight": 31
+	"buildHeight": 17
 }

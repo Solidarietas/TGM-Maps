@@ -3,7 +3,7 @@
 	"authors": [
 		{"uuid": "f690a591-348b-482e-a18d-7779d0c0a28c", "username": "mitchiii"}
 	],
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"gametype": "DTM",
 	"gamerules": {
 		"doFireTick": true
@@ -14,14 +14,14 @@
 			"name": "Blue",
 			"color": "blue",
 			"min": 1,
-			"max": 10
+			"max": 30
 		},
 		{
 			"id": "red",
 			"name": "Red",
 			"color": "red",
 			"min": 1,
-			"max": 10
+			"max": 30
 		}
 	],
 	"spawns": [
@@ -59,7 +59,7 @@
 		{
 			"name": "Default",
 			"items": [
-				{"material": "stone sword", "slot": 0, "unbreakable": true},
+				{"material": "iron sword", "slot": 0, "unbreakable": true},
 				{"material": "bow", "slot": 1, "unbreakable": true},
 				{"material": "diamond pickaxe", "slot": 2, "unbreakable": true},
 				{"material": "iron axe", "slot": 3, "enchantments": ["efficiency:1"], "unbreakable": true},
@@ -76,7 +76,7 @@
 		}
 	],
 	"itemremove": [
-		"stone sword", "bow", "diamond pickaxe", "iron axe", "spruce planks", "stone bricks", "arrow", "golden carrot", "golden apple",
+		"iron sword", "bow", "diamond pickaxe", "iron axe", "spruce planks", "stone bricks", "arrow", "golden carrot", "golden apple",
 		"chainmail chestplate", "iron boots",
 		{
 			"type": "leather helmet",
