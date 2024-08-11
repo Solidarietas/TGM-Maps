@@ -4,7 +4,7 @@
 		{"uuid": "130be12a-f3b9-4b7d-ad39-7b45e84d3d0f", "username": "Veiyl"},
 		{"uuid": "36dc036a-dfbc-4627-b66a-501223f08075", "username": "ieatboulders2"}
 	],
-	"version": "1.2.4",
+	"version": "1.2.5",
 	"gametype": "DTM",
 	"teams": [
 		{
@@ -12,14 +12,14 @@
 			"name": "Blue",
 			"color": "blue",
 			"min": 1,
-			"max": 7
+			"max": 30
 		},
 		{
 			"id": "red",
 			"name": "Red",
 			"color": "dark red",
 			"min": 1,
-			"max": 7
+			"max": 30
 		}
 	],
 	"spawns": [
@@ -75,7 +75,7 @@
 		{
 			"name": "Default",
 			"items": [
-				{"material": "stone sword", "slot": 0, "unbreakable": true},
+				{"material": "iron sword", "slot": 0, "unbreakable": true},
 				{"material": "bow", "slot": 1, "unbreakable": true},
 				{"material": "diamond pickaxe", "slot": 2, "unbreakable": true},
 				{"material": "iron axe", "slot": 3, "unbreakable": true},
@@ -83,7 +83,7 @@
 				{"material": "oak planks", "slot": 5, "amount": 64},
 				{"material": "bread", "slot": 8, "amount": 32},
 
-				{"material": "arrow", "slot": 28, "amount": 32},
+				{"material": "arrow", "slot": 28, "amount": 24},
 
 				{"material": "leather helmet", "slot": "helmet", "unbreakable": true},
 				{"material": "iron chestplate", "slot": "chestplate", "unbreakable": true},
@@ -93,7 +93,7 @@
 		}
 	],
 	"itemremove": [
-		"stone sword", "bow", "diamond pickaxe", "iron axe", "oak planks", "bread", "arrow", "golden apple",
+		"iron sword", "bow", "diamond pickaxe", "iron axe", "oak planks", "bread", "arrow", "golden apple",
 		"iron chestplate",
 		{
 			"type": "leather helmet",
@@ -115,7 +115,7 @@
 			"actions": {
 				"items": [
 					{"material": "golden apple", "amount": 1},
-					{"material": "arrow", "amount": 8}
+					{"material": "arrow", "amount": 6}
 				]
 			}
 		}
