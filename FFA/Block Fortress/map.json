@@ -1,6 +1,6 @@
 {
 	"name": "Block Fortress",
-	"version": "1.3.1",
+	"version": "1.3.2",
 	"gametype": "FFA",
 	"authors": [
 		{"uuid": "2a289d2a-d970-49c5-9a6c-01fc0264e317", "username": "Stealth5061"},
@@ -51,8 +51,8 @@
 			"name": "Default",
 			"items": [
 				{"material": "stone sword", "slot": 0, "unbreakable": true},
-				{"material": "bow", "slot": 1, "enchantments": ["infinity:1"], "unbreakable": true},
-				{"material": "arrow", "slot": 28, "amount": 1},
+				{"material": "bow", "slot": 1, "unbreakable": true},
+				{"material": "arrow", "slot": 28, "amount": 20},
 				{"material": "cooked beef", "slot": 8, "amount": 32},
 
 				{"material": "iron helmet", "slot": "helmet", "unbreakable": true},
@@ -61,8 +61,8 @@
 				{"material": "leather boots", "enchantments": ["feather falling:1"], "slot": "boots", "unbreakable": true}
 			],
 			"effects": [
-				{"type": "DAMAGE_RESISTANCE", "duration": 20, "amplifier": 100, "particles": false},
-				{"type": "speed", "duration": 999999, "amplifier": 1, "particles": false}
+				{"type": "DAMAGE_RESISTANCE", "duration": 20, "amplifier": 4, "particles": false},
+				{"type": "speed", "duration": 999999, "amplifier": 0, "particles": false}
 			]
 		}
 	],
