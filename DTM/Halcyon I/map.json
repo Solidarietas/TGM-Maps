@@ -3,7 +3,7 @@
 	"authors": [
 		{"uuid": "8242e55e-cc6a-458a-b272-a2b34918045f", "username": "kaimyr"}
 	],
-	"version": "1.0.1",
+	"version": "1.1.0",
 	"gametype": "DTM",
 	"teams": [
 		{
@@ -81,7 +81,7 @@
 
 				{"type": "item", "material": "apple", "slot": 4, "amount": 64},
 				{"type": "item", "material": "golden apple", "slot": 5, "amount": 1},
-				{"type": "item", "material": "oak log", "slot": 6, "amount": 32},
+				{"type": "item", "material": "oak planks", "slot": 6, "amount": 64},
 				{"type": "item", "material": "glass", "slot": 7, "amount": 64},
 				{"type": "item", "material": "arrow", "slot": 28, "amount": 16},
 
