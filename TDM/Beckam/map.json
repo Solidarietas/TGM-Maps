@@ -12,14 +12,14 @@
 			"name": "Blue",
 			"color": "blue",
 			"min": 1,
-			"max": 0
+			"max": 30
 		},
 		{
 			"id": "orange",
 			"name": "Orange",
 			"color": "gold",
 			"min": 1,
-			"max": 0
+			"max": 30
 		}
 	],
 	"spawns": [
