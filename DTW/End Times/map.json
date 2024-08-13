@@ -4,7 +4,7 @@
 		{"uuid": "485fb56b-261c-4b6c-a0df-b4afec6382b2", "username": "RetroMudkip"},
 		{"uuid": "6f72dd75-7599-41aa-aa76-ebd7fb745168", "username": "TheRandomKing12"}
 	],
-	"version": "1.0",
+	"version": "1.1",
 	"gametype": "DTM",
 	"teams": [
 		{
@@ -77,7 +77,7 @@
 		{
 			"name": "Default",
 			"items": [
-				{"type": "item", "material": "stone sword", "slot": 0, "unbreakable": true},
+				{"type": "item", "material": "iron sword", "slot": 0, "unbreakable": true},
 				{"type": "item", "material": "bow", "slot": 1, "unbreakable": true},
 				{"type": "item", "material": "iron axe", "slot": 2, "unbreakable": true},
 				{"type": "item", "material": "oak planks", "slot": 3, "amount": 64},
@@ -92,7 +92,7 @@
 		}
 	],
 	"itemremove": [
-		"stone sword", "bow", "iron axe", "oak planks", "arrow", "cooked beef", "golden apple",
+		"iron sword", "bow", "iron axe", "oak planks", "arrow", "cooked beef", "golden apple",
 		"chainmail chestplate", "iron boots",
 		{
             "type": "leather helmet",

@@ -3,7 +3,7 @@
   "authors": [
 	{"uuid": "f690a591-348b-482e-a18d-7779d0c0a28c", "username": "mitchiii"}
   ],
-  "version": "1.1.3",
+  "version": "1.2.0",
   "gametype": "DTM",
   "gamerules": {
 	"doFireTick": true
@@ -59,7 +59,7 @@
 	  "items": [
 		{"material": "stone sword", "slot": 0, "unbreakable": true},
 		{"material": "bow", "slot": 1, "unbreakable": true},
-		{"material": "iron pickaxe", "slot": 2, "unbreakable": true},
+		{"material": "stone pickaxe", "slot": 2, "unbreakable": true},
 		{"material": "stone axe", "slot": 3, "unbreakable": true},
 		{"material": "spruce planks", "slot": 4, "amount": 16},
 		{"material": "arrow", "slot": 7, "amount": 24},
@@ -87,7 +87,7 @@
 	}
   ],
   "itemremove": [
-	"stone sword", "bow", "iron pickaxe", "stone axe", "spruce planks", "blue terracotta", "red terracotta", "arrow", "golden carrot",
+	"stone sword", "bow", "stone pickaxe", "stone axe", "spruce planks", "blue terracotta", "red terracotta", "arrow", "golden carrot",
 	"chainmail chestplate", "emerald block", "golden apple",
 	{
 	  "type": "leather helmet",

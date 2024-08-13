@@ -4,7 +4,7 @@
 		{"uuid": "c26e7a7f-b4ce-4ebc-ac4d-f60691915d23", "username": "kroest"},
 		{"uuid": "38ab65dd-95f9-406f-917c-6accc995421f", "username": "GoldenOre"}
 	],
-	"version": "2.0.5",
+	"version": "2.1.0",
 	"gametype": "CTF",
 	"teams": [
 		{
@@ -66,7 +66,7 @@
 		{
 			"name": "Default",
 			"items": [
-				{"type": "item", "material": "stone sword", "slot": 0, "unbreakable": true},
+				{"type": "item", "material": "iron sword", "slot": 0, "unbreakable": true},
 				{"type": "item", "material": "bow", "slot": 1, "unbreakable": true},
 				{"type": "item", "material": "iron pickaxe", "slot": 2, "enchantments": ["efficiency:2"], "unbreakable": true},
 				{"type": "item", "material": "iron axe", "slot": 3, "enchantments": ["efficiency:2"], "unbreakable": true},
@@ -86,7 +86,7 @@
 		}
 	],
 	"itemremove": [
-		"stone sword", "bow", "iron pickaxe", "iron axe",
+		"iron sword", "bow", "iron pickaxe", "iron axe",
 		"white terracotta", "spruce log", "golden apple", "spruce planks",
 		"arrow", "golden apple", "chainmail chestplate",
 		{

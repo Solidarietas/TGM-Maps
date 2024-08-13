@@ -5,7 +5,7 @@
 		{"uuid": "9ec82338-4c1d-4b38-97b2-fedd0a92923c", "username": "D_A_N_G_E_R"},
 		{"uuid": "a9f11454-beac-4cc3-a138-1780802c8794", "username": "Blaszczak"}
 	],
-	"version": "1.1.1",
+	"version": "1.2.0",
 	"gametype": "DTM",
 	"teams": [
 		{
@@ -76,7 +76,7 @@
 		{
 			"name": "Default",
 			"items": [
-				{"type": "item", "material": "stone sword", "slot": 0, "unbreakable": true},
+				{"type": "item", "material": "iron sword", "slot": 0, "unbreakable": true},
 				{"type": "item", "material": "bow", "slot": 1, "unbreakable": true},
 				{"type": "item", "material": "diamond pickaxe", "slot": 2, "unbreakable": true},
 				{"type": "item", "material": "iron axe", "slot": 3, "unbreakable": true},
@@ -96,7 +96,7 @@
 		}
 	],
 	"itemremove": [
-		"stone sword", "bow", "diamond pickaxe", "iron axe", "oak planks", "glass", "golden apple", "cooked beef", "arrow",
+		"iron sword", "bow", "diamond pickaxe", "iron axe", "oak planks", "glass", "golden apple", "cooked beef", "arrow",
 		{
 			"type": "leather helmet",
 			"drop": true

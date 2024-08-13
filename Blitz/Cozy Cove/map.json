@@ -5,7 +5,7 @@
 		{"uuid": "edbd4cdb-63a5-4cec-944c-2b6bda56f51f", "username": "Owehttamy"}
 	],
 	"gametype": "Blitz",
-	"version": "1.1.2",
+	"version": "1.2.0",
 	"stats": {"disable": true},
 	"gamerules": {
 		"logAdminCommands": false,
@@ -72,7 +72,7 @@
 				{"type": "item", "material": "stone sword", "slot": 0, "unbreakable": true},
 				{"type": "item", "material": "bow", "slot": 1, "unbreakable": true},
 				{"type": "item", "material": "stone pickaxe", "slot": 2, "unbreakable": true},
-				{"type": "item", "material": "stone axe", "slot": 3, "unbreakable": true},
+				{"type": "item", "material": "wooden axe", "slot": 3, "unbreakable": true},
 				{"type": "item", "material": "stone shovel", "slot": 4, "unbreakable": true},
 				{"type": "item", "material": "apple", "slot": 8, "amount": 8},
 
@@ -85,7 +85,7 @@
 		}
 	],
 	"itemremove": [
-		"stone sword", "bow", "stone pickaxe", "stone axe", "stone shovel", "apple", "arrow",
+		"stone sword", "bow", "stone pickaxe", "wooden axe", "stone shovel", "apple", "arrow",
 		"chainmail leggings",
 		{
 			"type": "leather chestplate",
