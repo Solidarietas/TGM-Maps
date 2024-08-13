@@ -3,7 +3,7 @@
 	"authors": [
 		{"uuid": "0c44ca5a-6a42-49b7-81f2-58dc6d2ae3e9", "username": "Xerocoles"}
 	],
-	"version": "1.0.1",
+	"version": "1.1.0",
 	"gametype": "DTM",
 	"teams": [
 		{
@@ -88,7 +88,7 @@
 		{
 			"name": "Default",
 			"items": [
-				{"material": "stone sword", "slot": 0, "unbreakable": true},
+				{"material": "iron sword", "slot": 0, "unbreakable": true},
 				{"material": "bow", "slot": 1, "unbreakable": true},
 				{"material": "diamond pickaxe", "slot": 2, "unbreakable": true},
 				{"material": "iron axe", "slot": 3, "unbreakable": true},
@@ -108,7 +108,7 @@
 		}
 	],
 	"itemremove": [
-		"stone sword", "bow", "diamond pickaxe", "iron axe", "oak planks", "glass", "golden carrot",
+		"iron sword", "bow", "diamond pickaxe", "iron axe", "oak planks", "glass", "golden carrot",
 		"golden apple", "bucket", "arrow", "chainmail leggings", "iron boots",
 		{
 			"type": "leather helmet",

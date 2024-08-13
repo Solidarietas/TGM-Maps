@@ -4,7 +4,7 @@
 		{"uuid": "571c1d9d-4d49-43bd-bfdb-30563e920ca9", "username": "Wesdial"},
 		{"uuid": "c48598a7-c085-4e0f-b242-48c7fc452089", "username": "FlammingFreak296"}
 	],
-	"version": "1.1.0",
+	"version": "1.2.0",
 	"gametype": "DTM",
 	"teams": [
 		{
@@ -75,7 +75,7 @@
 		{
 			"name": "Default",
 			"items": [
-				{"type": "item", "material": "stone sword", "slot": 0, "unbreakable": true},
+				{"type": "item", "material": "iron sword", "slot": 0, "unbreakable": true},
 				{"type": "item", "material": "bow", "slot": 1, "unbreakable": true},
 				{"type": "item", "material": "iron pickaxe", "slot": 2, "unbreakable": true},
 				{"type": "item", "material": "iron axe", "slot": 3, "unbreakable": true},
@@ -112,7 +112,7 @@
 		}
 	],
 	"itemremove": [
-		"stone sword", "bow", "iron pickaxe", "iron axe", "golden apple", "arrow", "cooked beef",
+		"iron sword", "bow", "iron pickaxe", "iron axe", "golden apple", "arrow", "cooked beef",
 		"chainmail chestplate", "yellow terracotta", "magenta terracotta", "yellow stained glass", "magenta stained glass",
 		{
 			"type": "leather helmet",
