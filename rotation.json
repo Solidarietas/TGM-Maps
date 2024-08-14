@@ -1,23 +1,10 @@
 [
 	{
-		"name": "Tiny",
-		"default": true,
-		"shuffle": true,
-		"requirements": {
-			"min": 0,
-			"max": 4
-		},
-		"maps": [
-			"Arctic Ruins",
-			"Beckam",
-		]
-	},
-	{
 		"name": "Micro",
 		"default": true,
 		"shuffle": true,
 		"requirements": {
-			"min": 5,
+			"min": 0,
 			"max": 8
 		},
 		"maps": [
