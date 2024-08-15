@@ -3,7 +3,7 @@
 	"authors": [
 		{"uuid": "8242e55e-cc6a-458a-b272-a2b34918045f", "username": "kaimyr"}
 	],
-	"version": "1.1.0",
+	"version": "1.2.0",
 	"gametype": "DTM",
 	"teams": [
 		{
@@ -74,7 +74,7 @@
 		{
 			"name": "Default",
 			"items": [
-				{"type": "item", "material": "stone sword", "slot": 0, "unbreakable": true},
+				{"type": "item", "material": "iron sword", "slot": 0, "unbreakable": true},
 				{"type": "item", "material": "bow", "slot": 1, "unbreakable": true},
 				{"type": "item", "material": "diamond pickaxe", "slot": 2, "unbreakable": true},
 				{"type": "item", "material": "stone axe", "slot": 3, "unbreakable": true},
@@ -87,24 +87,20 @@
 
 				{"type": "item", "material": "leather helmet", "slot": "helmet", "unbreakable": true},
 				{"type": "item", "material": "leather chestplate", "slot": "chestplate", "unbreakable": true},
-				{"type": "item", "material": "iron leggings", "slot": "leggings", "unbreakable": true},
-				{"type": "item", "material": "leather boots", "slot": "boots", "unbreakable": true}
+				{"type": "item", "material": "diamond leggings", "slot": "leggings", "unbreakable": true},
+				{"type": "item", "material": "diamond boots", "slot": "boots", "unbreakable": true}
 			]
 		}
 	],
 	"itemremove": [
-		"stone sword", "bow", "diamond pickaxe", "stone axe", "apple", "arrow", "oak log",
-		"oak planks", "iron leggings", "golden apple", "glass",
+		"iron sword", "bow", "diamond pickaxe", "stone axe", "apple", "arrow", "oak log",
+		"oak planks", "diamond leggings", "diamond boots", "golden apple", "glass",
 		{
 			"type": "leather helmet",
 			"drop": true
 		},
 		{
 			"type": "leather chestplate",
-			"drop": true
-		},
-		{
-			"type": "leather boots",
 			"drop": true
 		}
 	],

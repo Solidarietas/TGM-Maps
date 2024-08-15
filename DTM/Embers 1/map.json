@@ -3,7 +3,7 @@
 	"authors": [
 		{"uuid": "da98a2f1-673c-4cec-b547-e0a342abfde4", "username": "timaeusTestified"}
 	],
-	"version": "1.1.0",
+	"version": "1.2.0",
 	"gametype": "DTM",
 	"teams": [
 		{
@@ -117,7 +117,7 @@
 				{"type": "item", "material": "stone sword", "slot": 0, "unbreakable": true},
 				{"type": "item", "material": "bow", "enchantments": ["infinity:1"], "slot": 1, "unbreakable": true},
 				{"type": "item", "material": "diamond pickaxe", "slot": 2, "unbreakable": true},
-				{"type": "item", "material": "iron axe", "slot": 3, "unbreakable": true},
+				{"type": "item", "material": "golden axe", "slot": 3, "unbreakable": true},
 
 				{"type": "item", "material": "golden apple", "slot": 4, "amount": 2},
 				{"type": "item", "material": "golden carrot", "slot": 5, "amount": 64},
@@ -143,7 +143,7 @@
 		}
 	],
 	"itemremove": [
-		"stone sword", "bow", "diamond pickaxe", "iron axe",
+		"stone sword", "bow", "diamond pickaxe", "golden axe",
 		"golden apple", "golden carrot", "birch planks", "birch log", "arrow",
 		{
 			"type": "leather helmet",
