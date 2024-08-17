@@ -4,7 +4,7 @@
 		{"uuid": "2c1cf65f-f668-41eb-812e-091391eb2896", "username": "Loks"}
 	],
 	"gametype": "Blitz",
-	"version": "1.1.0",
+	"version": "1.1.1",
 	"teams": [
 		{
 			"id": "blue",
@@ -31,7 +31,7 @@
 			"name": "Default",
 			"items": [
 				{"type": "item", "material": "stone sword", "slot": 0, "unbreakable": true},
-				{"type": "item", "material": "bow", "slot": -106, "unbreakable": true},
+				{"type": "item", "material": "bow", "slot": 1, "unbreakable": true},
 				{"type": "item", "material": "oak planks", "slot": 2, "amount": 12},
 				{"type": "item", "material": "golden apple", "slot": 7, "amount": 1},
 				{"type": "item", "material": "cooked beef", "slot": 8, "amount": 4},
