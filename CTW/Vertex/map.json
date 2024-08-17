@@ -3,7 +3,7 @@
 	"authors": [
 		{"uuid": "f690a591-348b-482e-a18d-7779d0c0a28c", "username": "mitchiii"}
 	],
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"gametype": "CTW",
 	"gamerules": {
 		"doFireTick": true
@@ -14,14 +14,14 @@
 			"name": "Blue",
 			"color": "blue",
 			"min": 1,
-			"max": 5
+			"max": 99
 		},
 		{
 			"id": "red",
 			"name": "Red",
 			"color": "red",
 			"min": 1,
-			"max": 5
+			"max": 99
 		}
 	],
 	"spawns": [
@@ -131,7 +131,7 @@
 			"repeat": true,
 			"actions": {
 				"items": [
-					{"material": "tnt", "amount": 1}
+					{"material": "tnt", "amount": 2}
 				]
 			}
 		}

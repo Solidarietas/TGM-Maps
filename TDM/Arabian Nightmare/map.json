@@ -5,7 +5,7 @@
 		{"uuid": "c26e7a7f-b4ce-4ebc-ac4d-f60691915d23", "username": "Kroest"}
 	],
 	"gametype": "TDM",
-	"version": "2.0.1",
+	"version": "2.1.0",
 	"teams": [
 		{
 			"id": "red",
@@ -28,7 +28,7 @@
 		{"teams": ["blue"], "coords": "0.5, 5, 48.5, 180"}
 	],
 	"points": {
-		"target": 50
+		"target": 20
 	},
 	"time": {
 		"limit": 420
@@ -41,8 +41,8 @@
 			"name": "default",
 			"items": [
 				{"material": "iron sword", "slot": 0, "amount": 1, "unbreakable": true},
-				{"material": "bow", "slot": 1, "amount": 1, "enchantments": ["power:100"], "flags": ["hide enchants", "hide attributes"], "unbreakable": true},
-				{"material": "arrow", "slot": 7, "amount": 1},
+				{"material": "bow", "slot": 1, "amount": 1, "unbreakable": true},
+				{"material": "arrow", "slot": 7, "amount": 8},
 				{"material": "cooked beef", "slot": 8, "amount": 8},
 				
 				{"material": "leather helmet", "slot": "helmet", "enchantments": ["projectile protection:1"], "unbreakable": true},
@@ -75,7 +75,7 @@
 			"actions": {
 				"items": [
 					{"material": "golden apple"},
-					{"material": "arrow"}
+					{"material": "arrow", "amount": 4}
 				]
 			}
 		}

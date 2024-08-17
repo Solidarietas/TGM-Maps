@@ -12,7 +12,8 @@
 			"Desolate Gully CTW",
 			"Ignum",
 			"Lagoon",
-			"Itty Bitty"
+			"Itty Bitty",
+			"Voltage"
 		]
 	},
 
@@ -71,12 +72,14 @@
 			"Vortex",
 			"Thrive",
 			"Tetris",
-			"Warlock DTW Christmas",
 			"Oakley",
 			"Sandstone",
 			"Skylands Reborn",
 			"Snowstone",
-			"Warlock DTW"
+			"Warlock DTW",
+			"Voltage ",
+			"Acear I",
+			"Bulwark"	
 		]
 	},
 	{
@@ -88,7 +91,6 @@
 			"max": 14
 		},
 		"maps": [
-			"Itty Bitty KOTH",
 			"Ricco",
 			"Calico Remastered",
 			"Smoke KOTH",
@@ -113,7 +115,6 @@
 			"Quintus Origins",
 			"Loyalty DTM",
 			"Senex 2",
-			"Antiquis",
 			"Molendinis",
 			"Snowy Wars",
 			"Arctic Ruins",
@@ -132,7 +133,6 @@
 			"Iris DTM",
 			"Ternio",
 			"Fossil Canyon",
-			"UwU",
 			"Balloons",
 			"Ternio Origins",
 			"Mini Drought",
@@ -163,7 +163,6 @@
 			"Farmlands",
 			"Rainbow",
 			"Festive",
-			"Village",
 			"Stonehenge",
 			"Acromion",
 			"Arizona",
@@ -180,7 +179,6 @@
 			"Tetris",
 			"Arctic",
 			"Village 2",	
-			"Warlock DTW Christmas",
 			"Steamgrown",
 			"Bridges",
 			"Oakley",
@@ -190,7 +188,20 @@
 			"Heaven",
 			"Skylands Reborn",
 			"Warlock DTW",
-			"Ancient Cistern"
+			"Ancient Cistern",
+			"Museum",
+			"Grassy Mound CTF",
+			"Acear I",
+			"SuperCUBE",
+			"The Grove",
+			"Abandoned Castle CTF",
+			"Rampant",
+			"Palace CTF",
+			"Bulwark",
+			"Snowy Diamonds",
+			"Chocolate Diamonds",
+			"Concourse",
+			"Aureola KOTF"
 		]
 	},
 	{
@@ -238,10 +249,8 @@
 			"Rendezvous Redux",
 			"Curabitur",
 			"Senex 2",
-			"Antiquis",
 			"Molendinis",
 			"Sunrise Over Lava",
-			"Halloween Train",
 			"Quintus",
 			"Mushtatic",
 			"Icescar",
@@ -269,7 +278,6 @@
 			"Rooted CTW",
 			"Snowback",
 			"Outback",
-			"Christmas Country",
 			"Cargo",
 			"Araxa",
 			"Turf Wars",
@@ -280,7 +288,6 @@
 			"Haunted Rings",
 			"Deepwind",
 			"Aequabilis",
-			"Haunted Hallows",
 			"TechnoWars",
 			"Perspookysto",
 			"Desert Country",
@@ -295,7 +302,6 @@
 			"Terrace",
 			"Templum",
 			"Festive",
-			"Village",
 			"Stonehenge",
 			"Arizona",	
 			"Oceanic",
@@ -303,12 +309,10 @@
 			"Spooky",
 			"Paddocks",
 			"Arctic 2",
-			"Not So Itty Bitty RAGE",
 			"Castles",
 			"Planets",
 			"Ascension 2",
 			"Anasarial",	
-			"Village 2",
 			"Sandstone 2",
 			"Terrace 2",
 			"Village 2",
@@ -322,7 +326,22 @@
 			"Edotopi",
 			"Cloudy Domain",
 			"Snowstone",
-			"Ancient Cistern"
+			"Ancient Cistern",
+			"Longshot",
+			"Museum",
+			"Grassy Mound CTF",
+			"SuperCUBE",
+			"Grub CTF",	
+			"Abandoned Castle CTF",
+			"Cabin Fever II",
+			"Rampant",
+			"Trenches",
+			"Aleppo",
+			"Chocolate Diamonds",
+			"Bamboo Valley V",
+			"Desert Sanctuary",	
+			"Concourse",
+			"Aureola KOTF"		
 		]
 	},
 	{
@@ -344,9 +363,7 @@
 			"Cavum",
 			"The Hallow",
 			"Alpine Mining",
-			"Antiquis",
 			"Sector Six",
-			"Halloween Train",
 			"Icescar",
 			"Embers 1",
 			"Justice 2",
@@ -355,7 +372,6 @@
 			"Bloody Trident",
 			"Gyrus CTW",
 			"Sandy Paradise",
-			"Christmas Country",
 			"Keipha CTW",
 			"Cargo ",
 			"Araxa",
@@ -371,9 +387,7 @@
 			"Spooky Paradise",
 			"A New Day",
 			"Golden Drought III",
-			"Christmas Paradise",
 			"Soviet Chills",
-			"Not So Itty Bitty",
 			"Arizona",
 			"Circulus Turrets",
 			"Planets",
@@ -381,7 +395,8 @@
 			"Haunted Turrets",
 			"Icebound",
 			"Winsray Fields",
-			"Celestial"	
+			"Celestial",
+			"Grub CTF"		
 		]
 	},
 	{
