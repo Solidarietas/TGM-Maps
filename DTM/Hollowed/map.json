@@ -67,7 +67,7 @@
 					"max": "-55, 12, 54"
 				},
 				"health": 1
-			}
+			},
 						{
 				"name": "Top Left",
 				"teams": ["blue"],
