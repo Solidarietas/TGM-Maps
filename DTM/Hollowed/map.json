@@ -43,8 +43,8 @@
 				"teams": ["red"],
 				"materials": ["obsidian"],
 				"region": { 
-					"min": "-55 12 -54",
-					"max": "-55 12 -54" 
+					"min": "-55, 12, -54",
+					"max": "-55, 12, -54" 
 				},
 				"health": 1
 			},
