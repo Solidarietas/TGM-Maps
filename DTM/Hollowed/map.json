@@ -3,7 +3,7 @@
 	"authors": [
 		{"uuid": "b67d5afa-215c-428f-b9b5-9660e3f4850e", "username": "Strikerfighter"}
 	],
-	"version": "1.0",
+	"version": "1.1",
 	"gametype": "DTM",
 	"teams": [
 		{
@@ -23,8 +23,8 @@
 	],
 	"spawns": [
 		{"teams": ["spectators"], "coords": "2, 46, -83"},
-		{"teams": ["red"], "coords": "97.5, 11, 0.5, 90"},
-		{"teams": ["blue"], "coords": "-92.5, 11, 0.5, -90"}
+		{"teams": ["blue"], "coords": "97.5, 11, 0.5, 90"},
+		{"teams": ["red"], "coords": "-92.5, 11, 0.5, -90"}
 	],
 	"dtm": {
 		"monuments": [
@@ -117,7 +117,7 @@
 				{"type": "item", "material": "iron sword", "slot": 0, "unbreakable": true},
 				{"type": "item", "material": "bow", "slot": 1, "unbreakable": true},
 				{"type": "item", "material": "stone axe", "slot": 2, "unbreakable": true},
-				{"type": "item", "material": "iron pickaxe", "slot": 3, "unbreakable": true},
+				{"type": "item", "material": "diamond pickaxe", "slot": 3, "unbreakable": true},
 
 				{"type": "item", "material": "spruce planks", "slot": 4, "amount": 64},
 				{"type": "item", "material": "spruce planks", "slot": 5, "amount": 64},
@@ -132,7 +132,7 @@
 		}
 	],
 	"itemremove": [
-		"iron sword", "bow", "iron pickaxe", "stone axe", "spruce planks", "golden apple", "cooked beef", "arrow",
+		"iron sword", "bow", "diamond pickaxe", "stone axe", "spruce planks", "golden apple", "cooked beef", "arrow",
 		"leather chestplate", "iron boots",
 		{
 			"type": "iron helmet",
