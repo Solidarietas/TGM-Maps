@@ -1,0 +1,160 @@
+{
+	"name": "Hollowed",
+	"authors": [
+		{"uuid": "b67d5afa-215c-428f-b9b5-9660e3f4850e", "username": "Strikerfighter"}
+	],
+	"version": "1.0",
+	"gametype": "DTM",
+	"teams": [
+		{
+			"id": "red",
+			"name": "Red",
+			"color": "red",
+			"min": 1,
+			"max": 50
+		},
+		{
+			"id": "blue",
+			"name": "Blue",
+			"color": "blue",
+			"min": 1,
+			"max": 50
+		}
+	],
+	"spawns": [
+		{"teams": ["spectators"], "coords": "2, 46, -83"},
+		{"teams": ["red"], "coords": "97.5, 11, 0.5, 90"},
+		{"teams": ["blue"], "coords": "-92.5, 11, 0.5, -90"}
+	],
+	"dtm": {
+		"monuments": [
+			{
+				"name": "Top Left",
+				"teams": ["red"],
+				"materials": ["obsidian"],
+				"region": { 
+					"min": "-55, 25, -54",
+					"max": "-55, 25, -54" 
+				},
+				"health": 1
+			},
+			{
+				"name": "Bottom Left",
+				"teams": ["red"],
+				"materials": ["obsidian"],
+				"region": { 
+					"min": "-55 12 -54",
+					"max": "-55 12 -54" 
+				},
+				"health": 1
+			},
+			{
+				"name": "Top Right",
+				"teams": ["red"],
+				"materials": ["obsidian"],
+				"region": {
+					"min": "-55, 25, 54",
+					"max": "-55, 25, 54"
+				},
+				"health": 1
+			},
+			{
+				"name": "Bottom Right",
+				"teams": ["red"],
+				"materials": ["obsidian"],
+				"region": {
+					"min": "-55, 12, 54",
+					"max": "-55, 12, 54"
+				},
+				"health": 1
+			}
+						{
+				"name": "Top Left",
+				"teams": ["blue"],
+				"materials": ["obsidian"],
+				"region": { 
+					"min": "59, 25, 54",
+					"max": "59, 25, 54" 
+				},
+				"health": 1
+			},
+			{
+				"name": "Bottom Left",
+				"teams": ["blue"],
+				"materials": ["obsidian"],
+				"region": { 
+					"min": "59, 12, 54",
+					"max": "59, 12, 54" 
+				},
+				"health": 1
+			},
+			{
+				"name": "Top Right",
+				"teams": ["blue"],
+				"materials": ["obsidian"],
+				"region": {
+					"min": "59, 25, -54",
+					"max": "59, 25, -54"
+				},
+				"health": 1
+			},
+			{
+				"name": "Bottom Right",
+				"teams": ["blue"],
+				"materials": ["obsidian"],
+				"region": {
+					"min": "59, 12, -54",
+					"max": "59, 12, -54"
+				},
+				"health": 1
+			}
+		]
+	},
+	"kits": [
+		{
+			"name": "Default",
+			"items": [
+				{"type": "item", "material": "iron sword", "slot": 0, "unbreakable": true},
+				{"type": "item", "material": "bow", "slot": 1, "unbreakable": true},
+				{"type": "item", "material": "stone axe", "slot": 2, "unbreakable": true},
+				{"type": "item", "material": "iron pickaxe", "slot": 3, "unbreakable": true},
+
+				{"type": "item", "material": "spruce planks", "slot": 4, "amount": 64},
+				{"type": "item", "material": "spruce planks", "slot": 5, "amount": 64},
+				{"type": "item", "material": "cooked beef", "slot": 6, "amount": 64},
+				{"type": "item", "material": "arrow", "slot": 9, "amount": 10},
+
+				{"type": "item", "material": "iron helmet", "slot": "helmet", "unbreakable": true},
+				{"type": "item", "material": "leather chestplate", "slot": "chestplate", "unbreakable": true},
+				{"type": "item", "material": "leather leggings", "slot": "leggings", "unbreakable": true},
+				{"type": "item", "material": "iron boots", "slot": "boots", "unbreakable": true}
+			]
+		}
+	],
+	"itemremove": [
+		"iron sword", "bow", "iron pickaxe", "stone axe", "spruce planks", "golden apple", "cooked beef", "arrow",
+		"leather chestplate", "iron boots",
+		{
+			"type": "iron helmet",
+			"drop": true
+		},
+		{
+			"type": "leather leggings",
+			"drop": true
+		}
+	],	
+	"killstreaks": [
+		{
+			"count": 1,
+			"repeat": true,
+			"actions": {
+				"items": [
+					{"material": "golden apple", "amount": 1},
+					{"material": "arrow", "amount": 5},
+					{"material": "spruce planks", "amount": 32}
+				]
+			}
+		}
+	],
+	"buildHeight": 40
+}
