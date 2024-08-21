@@ -5,7 +5,7 @@
 		{"uuid": "6e347123-c684-4d7e-996c-44d4924ff172", "username": "SheriffSoco"}
 	],
 	"gametype": "Blitz",
-	"version": "1.1.3",
+	"version": "1.1.4",
 	"stats": {"disable": true},
 	"teams": [
 		{
@@ -111,6 +111,34 @@
 				"defenders"
 			],
 			"sound": true
+		},
+		{
+			"from": "portal-llong",
+			"to": "-71, 48, 0",
+			"teams": [
+				"defenders"
+			],
+			"sound": true,
+			"flags": {
+				"relative-x-position": true,
+				"relative-z-position": true,
+				"relative-yaw": true,
+				"relative-pitch": true
+			}
+		},
+		{
+			"from": "portal-rlong",
+			"to": "71, 48, 0",
+			"teams": [
+				"defenders"
+			],
+			"sound": true,
+			"flags": {
+				"relative-x-position": true,
+				"relative-z-position": true,
+				"relative-yaw": true,
+				"relative-pitch": true
+			}
 		}
 	],
 	"border": {
@@ -123,11 +151,16 @@
 		{"id": "portal-left", "min": "761, 86, 405", "max": "761, 87, 408"},
 		{"id": "portal-lback", "min": "761, 87, 408", "max": "759, 86, 408"},
 		{"id": "portal-right", "min": "751, 86, 405", "max": "751, 86, 408"},
-		{"id": "portal-rback", "min": "753, 87, 408", "max": "751, 86, 408"}
+		{"id": "portal-rback", "min": "753, 87, 408", "max": "751, 86, 408"},
+		{"id": "portal-llong", "min": "792, 47, 468", "max": "792, 47, 1031"},
+		{"id": "portal-rlong", "min": "720, 47, 468", "max": "720, 47, 1031"}
 	],
 	"filters": [
 		{"type": "blockBreak", "evaluate": "allow", "teams": ["runners"], "regions": ["global"], "blocks": ["sponge", "cobweb"]},
 		{"type": "blockPlace", "evaluate": "deny", "teams": ["runners"], "regions": ["global"]},
 		{"type": "build", "evaluate": "deny", "teams": ["defenders"], "regions": ["global"]}
-	]
+	],
+	"legacy": {
+		"regen": true
+	}
 }
