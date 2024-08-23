@@ -160,8 +160,8 @@
 	"regions": [
 		{"id": "blue-spawn-protection", "type": "cuboid", "min": "263, -oo, 316", "max": "272, 11, 323"},
 		{"id": "red-spawn-protection", "type": "cuboid", "min": "221, -oo, 272", "max": "228, 11, 281"},
-		{"id": "cyan-wool-room", "min": "220, 12, 272", "max": "229, 17, 281"},
-		{"id": "orange-wool-room", "min": "263, 12, 315", "max": "272, 17, 324"},
+		{"id": "cyan-wool-room", "min": "221, 12, 273", "max": "229, 17, 281"},
+		{"id": "orange-wool-room", "min": "264, 12, 316", "max": "272, 17, 324"},
 		{
 			"id": "bottom-layer", "type": "meta",
 			"regions": [
