@@ -3,7 +3,7 @@
 	"authors": [
 		{"uuid": "bbfac3db-dd46-4996-b936-0e2432f33285", "username": "Valky"}
 	],
-	"version": "1.0",
+	"version": "1.1",
 	"gametype": "CTW",
 	"teams": [
 		{
@@ -11,14 +11,14 @@
 			"name": "Blue",
 			"color": "blue",
 			"min": 1,
-			"max": 5
+			"max": 99
 		},
 		{
 			"id": "red",
 			"name": "Red",
 			"color": "dark_red",
 			"min": 1,
-			"max": 5
+			"max": 99
 		}
 	],
 	"spawns": [
@@ -30,9 +30,9 @@
 		"rules": [
 			{
 				"freeze": false,
-				"blindness": true,
+				"blindness": false,
 				"confirm": false,
-				"delay": 3500
+				"delay": 3000
 			}
 		]
 	},
@@ -43,9 +43,9 @@
 				{"material": "stone sword", "slot": 0, "unbreakable": true},
 				{"material": "bow", "slot": 1, "unbreakable": true},
 				{"material": "stone pickaxe", "slot": 2, "unbreakable": true},
-				{"material": "stone axe", "enchantments": ["efficiency:2"], "slot": 3, "unbreakable": true},
+				{"material": "stone axe", "slot": 3, "unbreakable": true},
 
-				{"material": "spruce planks", "slot": 4, "amount": 8},
+				{"material": "spruce planks", "slot": 4, "amount": 16},
 				{"material": "golden apple", "slot": 7, "amount": 1},
 				{"material": "cooked beef", "slot": 8, "amount": 64},
 				{"material": "arrow", "slot": 28, "amount": 6},
@@ -57,20 +57,6 @@
 			],
 			"effects": [
 				{"type": "DAMAGE_RESISTANCE", "duration": 40, "amplifier": 10000, "particles": false}
-			]
-		},
-		{
-			"name": "Blue",
-			"teams": ["blue"],
-			"items": [
-				{"material": "blue terracotta", "slot": 5, "amount": 8}
-			]
-		},
-		{
-			"name": "Red",
-			"teams": ["red"],
-			"items": [
-				{"material": "red terracotta", "slot": 5, "amount": 8}
 			]
 		}
 	],
