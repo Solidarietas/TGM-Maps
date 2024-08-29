@@ -3,10 +3,10 @@
 	"authors": [
 		{"uuid": "0c44ca5a-6a42-49b7-81f2-58dc6d2ae3e9", "username": "Xerocoles"}
 	],
-	"version": "1.0.5",
+	"version": "1.0.6",
 	"gametype": "CTF",
 	"time": {
-		"limit": 600
+		"limit": 420
 	},
 	"teams": [
 		{
@@ -14,14 +14,14 @@
 			"name": "Purple",
 			"color": "dark purple",
 			"min": 1,
-			"max": 5
+			"max": 99
 		},
 		{
 			"id": "green",
 			"name": "Green",
 			"color": "green",
 			"min": 1,
-			"max": 5
+			"max": 99
 		}
 	],
 	"spawns": [
@@ -38,7 +38,7 @@
 			{
 				"team": "purple",
 				"location": "-23, 11, 49",
-				"respawn-time": 5,
+				"respawn-time": 4,
 				"type": "purple",
 				"patterns": [
 					{"color": "purple", "type": "base"}
@@ -52,7 +52,7 @@
 			{
 				"team": "green",
 				"location": "-12, 11, 60",
-				"respawn-time": 5,
+				"respawn-time": 4,
 				"type": "lime",
 				"patterns": [
 					{"color": "lime", "type": "base"}
@@ -76,7 +76,8 @@
 				{"type": "item", "material": "stone sword", "slot": 0, "unbreakable": true},
 				{"type": "item", "material": "bow", "slot": 1, "unbreakable": true},
 				{"type": "item", "material": "golden apple", "slot": 2, "amount": 1},
-				{"type": "item", "material": "arrow", "slot": 8, "amount": 8},
+				{"type": "item", "material": "steak", "slot": 7, "amount": 8},
+				{"type": "item", "material": "arrow", "slot": 8, "amount": 6},
 
 				{"material": "golden helmet", "slot": "helmet", "unbreakable": true},
 				{"material": "leather chestplate", "slot": "chestplate", "unbreakable": true},
@@ -84,14 +85,13 @@
 				{"material": "leather boots", "slot": "boots", "unbreakable": true}
 			],
 			"effects": [
-				{"type": "damage_resistance", "duration": 120, "amplifier": 10, "particles": false},
-				{"type": "saturation", "duration": 1000000, "amplifier": 100, "particles": false}
+				{"type": "damage_resistance", "duration": 100, "amplifier": 10, "particles": false}
 			]
 		}
 	],
 	"itemremove": [
 		"stone sword", "bow", "golden apple", "arrow",
-		"golden helmet", "iron leggings",
+		"golden helmet", "steak", "iron leggings",
 		{
 			"type": "leather chestplate",
 			"drop": true
