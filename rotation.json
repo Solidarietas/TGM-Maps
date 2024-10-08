@@ -8,8 +8,10 @@
 			"max": 4
 		},
 		"maps": [
+			"Acromion",
 			"Dry Outpost",
 			"Desolate Gully CTW",
+			"Eclipse",
 			"Ignum",
 			"Lagoon",
 			"Itty Bitty",
@@ -162,7 +164,6 @@
 			"Rainbow",
 			"Festive",
 			"Stonehenge",
-			"Acromion",
 			"Arizona",
 			"Vortex",
 			"Bridge DTF",
