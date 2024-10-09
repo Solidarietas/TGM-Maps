@@ -8,7 +8,7 @@
 		{"uuid": "5a098b06-e7f6-4501-add4-bf8a027da261", "username": "revinition"},
 		{"uuid": "0e7cf4ed-6741-4fd4-b619-297377c76154", "username": "yhan"}
 	],
-	"version": "1.0.1",
+	"version": "1.1.0",
 	"gametype": "KOTH",
 	"teams": [
 		{
@@ -32,7 +32,7 @@
 		{"teams": ["red"], "coords": "-130.5, 37, -232.5, -140, -10"}
 	],
 	"points": {
-		"target": 1250
+		"target": 900
 	},
 	"koth": {
 		"hills": [
@@ -76,11 +76,10 @@
 				{"type": "item", "material": "bow", "slot": 1, "unbreakable": true},
 				{"type": "item", "material": "spruce leaves", "slot": 2, "amount": 8},
 				{"type": "item", "material": "shears", "slot": 3, "unbreakable": true},
-				{"type": "item", "material": "arrow", "slot": 7, "amount": 24},
+				{"type": "item", "material": "arrow", "slot": 7, "amount": 16},
 				{"type": "item", "material": "golden carrot", "slot": 8, "amount": 16},
 
-				{"type": "item", "material": "leather helmet", "slot": "helmet", "unbreakable": true},
-				{"type": "item", "material": "leather chestplate", "enchantments": ["projectile protection:2"], "slot": "chestplate", "unbreakable": true},
+				{"type": "item", "material": "leather chestplate", "enchantments": ["projectile protection:4"], "slot": "chestplate", "unbreakable": true},
 				{"type": "item", "material": "leather leggings", "slot": "leggings", "unbreakable": true},
 				{"type": "item", "material": "leather boots", "slot": "boots", "unbreakable": true}
 			],
@@ -115,7 +114,7 @@
 			"actions": {
 				"items": [
 					{"material": "golden apple", "amount": 1},
-					{"material": "arrow", "amount": 6}
+					{"material": "arrow", "amount": 3}
 				]
 			}
 		}
