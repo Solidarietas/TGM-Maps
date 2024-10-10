@@ -3,7 +3,7 @@
 	"authors": [
 		{"uuid": "f690a591-348b-482e-a18d-7779d0c0a28c", "username": "mitchiii"}
 	],
-	"version": "1.0.2",
+	"version": "1.1.0",
 	"gametype": "KOTH",
 	"teams": [
 		{
@@ -27,7 +27,7 @@
 		{"teams": ["purple"], "coords": "-67.5, 48, -46.5, -135"}
 	],
 	"points": {
-		"target": 1200
+		"target": 750
 	},
 	"koth": {
 		"hills": [
@@ -61,13 +61,13 @@
 				{"type": "item", "material": "stone sword", "slot": 0, "unbreakable": true},
 				{"type": "item", "material": "bow", "slot": 1, "unbreakable": true},
 				{"type": "item", "material": "shears", "slot": 2, "amount": 1},
-				{"type": "item", "material": "oak leaves", "slot": 3, "amount": 24},
-				{"type": "item", "material": "arrow", "slot": 7, "amount": 24},
+				{"type": "item", "material": "oak leaves", "slot": 3, "amount": 32},
+				{"type": "item", "material": "arrow", "slot": 7, "amount": 16},
 				{"type": "item", "material": "golden carrot", "slot": 8, "amount": 64},
 				{"type": "item", "material": "leather helmet", "slot": "helmet", "unbreakable": true},
 				{"type": "item", "material": "chainmail chestplate", "slot": "chestplate", "unbreakable": true},
 				{"type": "item", "material": "leather leggings", "slot": "leggings", "unbreakable": true},
-				{"type": "item", "material": "leather boots", "slot": "boots", "enchantments": ["PROTECTION_FALL:5"], "unbreakable": true}
+				{"type": "item", "material": "leather boots", "slot": "boots", "unbreakable": true}
 			]
 		}
 	],
@@ -134,10 +134,10 @@
 		}
 	],
 	"portals": [
-		{"from": "orange-portal", "to": "4.5, 47, -118.5, 45", "teams": ["orange", "purple"], "sound": false},
-		{"from": "purple-portal", "to": "-39.5, 47, -74.5, -135", "teams": ["orange", "purple"], "sound": false},
-		{"from": "northwest-portal", "to": "7.5, 44, -71.5, 135", "teams": ["orange", "purple"], "sound": false},
-		{"from": "southeast-portal", "to": "-42.5, 44, -121.5, 45", "teams": ["orange", "purple"], "sound": false}
+		{"from": "orange-portal", "to": "4.5, 47, -118.5, 45", "teams": ["orange", "purple"], "sound": false, "flags": {"relative-yaw": false},
+		{"from": "purple-portal", "to": "-39.5, 47, -74.5, -135", "teams": ["orange", "purple"], "sound": false, "flags": {"relative-yaw": false},
+		{"from": "northwest-portal", "to": "7.5, 44, -71.5, 135", "teams": ["orange", "purple"], "sound": false, "flags": {"relative-yaw": false},
+		{"from": "southeast-portal", "to": "-42.5, 44, -121.5, 45", "teams": ["orange", "purple"], "sound": false, "flags": {"relative-yaw": false}}
 	],
 	"regions": [
 		{"id": "orange-spawn-protection", "min": "25.5, 44, -148.5", "max": "34.5, oo, -139.5"},

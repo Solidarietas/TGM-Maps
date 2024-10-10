@@ -3,7 +3,7 @@
 	"authors": [
 		{"uuid": "0c44ca5a-6a42-49b7-81f2-58dc6d2ae3e9", "username": "Xerocoles"}
 	],
-	"version": "1.0.2",
+	"version": "1.1.0",
 	"gametype": "KOTH",
 	"objective": "Reach 750 points before the opposing team!",
 	"points": {
@@ -25,14 +25,14 @@
 			"name": "Red",
 			"color": "dark red",
 			"min": 1,
-			"max": 4
+			"max": 40
 		},
 		{
 			"id": "blue",
 			"name": "Blue",
 			"color": "blue",
 			"min": 1,
-			"max": 4
+			"max": 40
 		}
 	],
 	"spawns": [
@@ -44,15 +44,18 @@
 		{
 			"name": "Default",
 			"items": [
-				{"type": "item", "material": "stone sword", "slot": 0, "unbreakable": true},
-				{"type": "item", "material": "bow", "slot": 1, "enchantments": ["infinity:1"], "unbreakable": true},
+				{"type": "item", "material": "iron sword", "slot": 0, "unbreakable": true},
+				{"type": "item", "material": "bow", "slot": 1, "unbreakable": true},
 				{"type": "item", "material": "golden carrot", "slot": 2, "amount": 64},
-				{"type": "item", "material": "arrow", "slot": 28, "amount": 1},
+				{"type": "item", "material": "arrow", "slot": 28, "amount": 8},
 				
-				{"type": "item", "material": "leather helmet", "slot": "helmet", "unbreakable": true},
+				{"type": "item", "material": "iron helmet", "slot": "helmet", "unbreakable": true},
 				{"type": "item", "material": "leather chestplate", "slot": "chestplate", "unbreakable": true},
 				{"type": "item", "material": "chainmail leggings", "slot": "leggings", "unbreakable": true},
-				{"type": "item", "material": "iron boots", "slot": "boots", "enchantments": ["feather falling:1"], "unbreakable": true}
+				{"type": "item", "material": "iron boots", "slot": "boots", "unbreakable": true}
+			],
+			"effects": [
+				{"type": "DAMAGE_RESISTANCE", "duration": 40, "amplifier": 4, "particles": false}
 			]
 		}
 	],
@@ -68,7 +71,7 @@
 		}
 	],
 	"itemremove": [
-		"stone sword", "bow", "golden carrot", "golden apple", "arrow",
+		"iron sword", "bow", "golden carrot", "golden apple", "arrow",
 		{"type": "leather helmet", "drop": true},
 		{"type": "leather chestplate", "drop": true},
 		{"type": "chainmail leggings", "drop": true},
@@ -113,6 +116,6 @@
 		{"id": "portal", "min": "44, 19, 19", "max": "43, 21, 18"}
 	],
     "portals": [ 
-        {"from": "portal", "to": "44, 26, 26.5", "teams": ["blue", "red"], "sound": true}
+        {"from": "portal", "to": "44, 26, 27", "teams": ["blue", "red"], "sound": true}
     ]
 }
