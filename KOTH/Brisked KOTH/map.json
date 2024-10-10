@@ -137,7 +137,7 @@
 		{"from": "orange-portal", "to": "4.5, 47, -118.5, 45", "teams": ["orange", "purple"], "sound": false, "flags": {"relative-yaw": false},
 		{"from": "purple-portal", "to": "-39.5, 47, -74.5, -135", "teams": ["orange", "purple"], "sound": false, "flags": {"relative-yaw": false},
 		{"from": "northwest-portal", "to": "7.5, 44, -71.5, 135", "teams": ["orange", "purple"], "sound": false, "flags": {"relative-yaw": false},
-		{"from": "southeast-portal", "to": "-42.5, 44, -121.5, 45", "teams": ["orange", "purple"], "sound": false, "flags": {"relative-yaw": false}}
+		{"from": "southeast-portal", "to": "-42.5, 44, -121.5, 45", "teams": ["orange", "purple"], "sound": false, "flags": {"relative-yaw": false}
 	],
 	"regions": [
 		{"id": "orange-spawn-protection", "min": "25.5, 44, -148.5", "max": "34.5, oo, -139.5"},
